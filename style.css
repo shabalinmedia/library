@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    /* width: 100vh; */
+    background-color: #eff6ff;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+
+
+}
+
+header {
+    /* margin-top: 1rem; */
+    color: #60a5fa;
+
+}
+
+h1 {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+header h2 {
+    font-size: 2.3rem;
+    padding-left: 1rem;
+    color: rgb(92, 90, 90);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+input {
+    width: 30rem;
+    height: 3rem;
+    border: none;
+    background: #93c5fd;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: rgb(39, 39, 39);
+    padding-left: 0.5rem;
+}
+
+input::placeholder {
+    color: rgb(92, 90, 90);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 3rem;
+    height: 2rem;
+    color: rgb(243, 238, 238);
+    font-size: 1rem ;
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+    background: #60a5fa;
+}
+
+.read h2{
+    color: rgb(92, 90, 90);
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.read {
+    display: flex;
+    padding-right: 1rem;
+
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.add-book {
+    padding-top: 2rem;
+}
+
+
+.add-book button {
+    width: 12rem;
+    height: 4rem;
+    background: #3b82f6;
+    font-size: 1.3rem;
+
+}
+
+.add-book button:hover {
+    background: #1d4ed8;
+    
+}
