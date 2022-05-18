@@ -18,20 +18,40 @@
             <input class="title" type="text" placeholder="Title">
             <input class="author" type="text" placeholder="Author">
             <input class="pages" type="number" placeholder="Pages">
-        </div>
 
-        <div class="read">
-            <h2>Have you read this book?</h2>
-            <div>
-                <button id="yes-button">Yes</button>
-                <button id="no-button">No</button>
-            </div>
-        </div>
+            <div id="wrapper">
+                <label for="yes_no_radio">Have you read this book?</label>
+   
+              <input type="radio" name="yes_no" class="yN" checked>Yes</input>
 
-        <div class="add-book">
+       
+              <input type="radio" name="yes_no" class="yN">No</input>
+        
+              </div>
             <button id="add">Add to collection</button>
-            <button id="cancel">Cancel</button>
         </div>
+
+      
+
+       
+
+        <table class="table">
+            <h2 id="lib">My Library</h2>
+            <tr>
+                <th>Author</th>
+                <th>Title</th>
+                <th>Pages</th>
+                <th>Read Status</th>
+              </tr>
+              <tr>
+                <td>Herman Melville</td>
+                <td>Moby-Dick</td>
+                <td>731</td>
+                <td>Read</td>
+              </tr>
+
+            
+        </table>
 
     </div>
 
